@@ -65,3 +65,6 @@ radialGradient.addColorStop(1, 'green')
 
 ctx.fillStyle = radialGradient
 ctx.fillRect(80, 350, 150, 150)
+
+const starryNight = document.getElementById("starry-night")
+ctx.drawImage(starryNight, 5, 520, 500, 350)
