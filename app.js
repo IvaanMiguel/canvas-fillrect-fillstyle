@@ -49,3 +49,11 @@ ctx.fillText('Hello world!', 300, 400)
 
 ctx.strokeStyle = 'darkgray'
 ctx.strokeText('Hello world!', 300, 350)
+
+const gradient = ctx.createLinearGradient(650, 350, 950, 650)
+gradient.addColorStop(0, "red")
+gradient.addColorStop(.5, "purple")
+gradient.addColorStop(1, "green")
+
+ctx.fillStyle = gradient
+ctx.fillRect(650, 350, 300, 300)
