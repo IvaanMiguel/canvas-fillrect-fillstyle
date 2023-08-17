@@ -51,17 +51,17 @@ ctx.strokeStyle = 'darkgray'
 ctx.strokeText('Hello world!', 300, 350)
 
 const gradient = ctx.createLinearGradient(650, 350, 950, 650)
-gradient.addColorStop(0, "red")
-gradient.addColorStop(.5, "purple")
-gradient.addColorStop(1, "green")
+gradient.addColorStop(0, 'red')
+gradient.addColorStop(.5, 'purple')
+gradient.addColorStop(1, 'green')
 
 ctx.fillStyle = gradient
 ctx.fillRect(650, 350, 300, 300)
 
 const radialGradient = ctx.createRadialGradient(155, 425, 5, 155, 425, 80)
-radialGradient.addColorStop(0, "red")
-radialGradient.addColorStop(.5, "purple")
-radialGradient.addColorStop(1, "green")
+radialGradient.addColorStop(0, 'red')
+radialGradient.addColorStop(.5, 'purple')
+radialGradient.addColorStop(1, 'green')
 
 ctx.fillStyle = radialGradient
 ctx.fillRect(80, 350, 150, 150)
