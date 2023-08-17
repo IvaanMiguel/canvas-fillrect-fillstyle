@@ -42,3 +42,10 @@ ctx.fill()
 ctx.beginPath()
 ctx.arc(900, 175, 40, 0, 2 * Math.PI)
 ctx.stroke()
+
+ctx.font = '45px consolas'
+ctx.fillStyle = "purple"
+ctx.fillText("Hello world!", 300, 400)
+
+ctx.strokeStyle = "darkgray"
+ctx.strokeText("Hello world!", 300, 350)
